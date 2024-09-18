@@ -1,6 +1,149 @@
 body {
-     background-color: rgb(255, 157, 0);
+    width: 1800px;
+    margin: 30px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+
+  header {
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 100px;
+    display:flex
+    
+    
+  }
+
+  nav {
+    width: 545px;
+    height: 23px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: 192px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+nav ul li {
+  list-style-type:none;
 }
-#encabezado {
-    background-color: rgb(77, 255, 0);
+
+nav ul li a {
+    text-decoration: none;
+    color: #1f1534;
+  }
+
+  nav ul li a:hover {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.59px;
+    text-align: left;
+  }
+#logo-T {
+    width: 41px;
+  height: 41px;
+  background-color: #458ff6;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32.63px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  color: #ffff;
+  display: inline-block;
+  border-radius: 50%;
 }
+#logo-paujil {
+    width: 107px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.12px;
+    text-align: left;
+    color: #233348;
+  }
+
+  #seccion-main {
+    display: flex;
+  }
+
+  #articulo-paujil {
+    width: 445px;
+    height: 338px;
+    margin-top: 60px;
+    margin-left: 99px;
+    gap: 0px;
+    border-radius: 55px 0px 0px 0px;
+    opacity: 0px;
+    margin-right: 109px;
+    color: aqua;
+    
+  }
+
+  #articulo-paujil p {
+    width: 445px;
+    height: 90px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: #070607;
+    
+  }
+
+  #articulo-paujil h1 {
+    width: 427px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: left;
+    color: #000000;
+  }
+
+  #articulo-paujil button {
+    width: 150px;
+    height: 46px;
+    gap: 0px;
+    border-radius: 55px;
+    opacity: 0px;
+    background-color: #458ff6;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+
+  #imagen-paujil {
+    width: 345px;
+    height: 338px;
+    margin-top: 60px;
+    margin-left: 69px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: 60px;
+    color: aqua;
+    background-color: #458ff6;
+  }
+
+  .contenedor-main {
+    width: 80%;
+    height: 798px;
+    gap: 0px;
+    opacity: 0px;
+    color: aqua;
+  }
